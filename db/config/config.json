@@ -1,0 +1,24 @@
+
+{
+  "development": {
+    "username": "kjoenzau",
+    "password": null,
+    "database": "foodies",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "chef",
+    "password": "foodies_test",
+    "database": "recipe_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "foodies",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

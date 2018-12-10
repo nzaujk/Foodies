@@ -1,23 +1,27 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server/server.js",
   "author": "joe nzau",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon server.js"
+    "server": "nodemon server.js"
   },
   "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
+    "bcrypt": "^3.0.2",
     "body-parser": "^1.18.3",
-    "dotenv": "^6.1.0",
+    "concurrently": "^4.0.1",
     "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.3.0",
     "morgan": "^1.9.1",
     "nodemon": "^1.18.5",
     "path": "^0.12.7",
+    "pg": "^7.6.0",
+    "pg-hstore": "^2.3.2",
+    "prettier": "^1.14.3",
     "sequelize": "^4.41.0"
-  }
+  },
+  "devDependencies": {}
 }
